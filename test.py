@@ -1,5 +1,6 @@
-b = 2.3
+tst = [1, 2, 3, 4, 5]
 
-for i in str(b):
-    if i == ".":
-        print("hi")
+tst[-1] = 0
+tst[0] = 0
+
+print(tst)
